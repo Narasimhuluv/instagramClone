@@ -49,14 +49,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
 /* -------------------custome styles---------- */
 
 @media screen and (max-width : 768px) {
     html{
-        font-size: 18px;
+        font-size: 20px;
         font-family: 'Ubuntu', sans-serif;
     }
     .flex{
@@ -76,7 +73,7 @@ table {
         color: black;
     }
     .container{
-        max-width: 98%;
+        max-width: 100%;
         width: 100%;
         margin: auto;
         margin-top: 1rem;
@@ -203,7 +200,7 @@ table {
         margin-top: 4.5rem;
     }
     .fifty{
-        width: 49%;
+        width: 49.8%;
     }
 }
 
