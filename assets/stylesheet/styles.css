@@ -65,6 +65,9 @@ table {
     .justify_between{
         justify-content: space-between;
     }
+    .justy_flexstart{
+        justify-content: flex-start;
+    }
     .full_width{
         width: 100%;
         margin: 0.6rem 0;
@@ -102,6 +105,14 @@ table {
         font-size: 1.5rem;
         color: black;
     }
+    /* .nav .lottie_player{
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 100px;
+        height: 100px;
+        transform: scaleX(-1);
+    } */
     /* ------------------------ */
     .each_article{
         margin-bottom: 3rem;
@@ -197,10 +208,57 @@ table {
 
     /* ----------------------------------------- */
     .list_images{
-        margin-top: 4.5rem;
+        margin: 4.5rem 0;
     }
     .fifty{
         width: 49.8%;
+    }
+    /* .lottie_file{
+        width: 150px;
+        position: absolute;
+        height: 150px;
+        margin-left: 23%;
+        bottom: 1.5rem;
+        display: none;
+    }
+    .bookmark:hover .lottie_file{
+        display: block;
+    } */
+
+    .input_section{
+        margin-top: 5rem;
+    }
+    .input{
+        position: fixed;
+        background-color: white;
+        top: 4.5rem;
+        width: 100%;
+        margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.342);
+        height: 2.9rem;
+        border-radius: 10px;
+    }
+    .input input{
+        border: none;
+        width: 90%;
+        height: 2.1rem;
+        padding-left: 0.8rem;
+        letter-spacing: 1.5px;
+        border-radius: 10px;
+
+    }
+    .input input:focus{
+        outline: none;
+    }
+    .container_onebythree{
+        width: 33%;
+        height: 14rem;
+        margin-top: 3px;
+    }
+     .hundred{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 8rem;
     }
 }
 
