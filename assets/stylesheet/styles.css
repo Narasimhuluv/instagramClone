@@ -51,7 +51,7 @@ table {
 }
 /* -------------------custome styles---------- */
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 908px) {
     html{
         font-size: 20px;
         font-family: 'Ubuntu', sans-serif;
@@ -86,7 +86,7 @@ table {
         width: 100%;
     }
     .section_container{
-        margin: 0 0.6rem;
+        margin: 0 0.4rem;
     }
     .header{
         position: fixed;
